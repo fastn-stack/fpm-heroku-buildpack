@@ -12,3 +12,6 @@ mkdir -p vendor/fpm/bin
 
 mv fpm_linux_musl_x86_64 vendor/fpm/bin/fpm
 mv fpm_linux_musl_x86_64.d vendor/fpm/bin/fpm.d
+
+chmod +x vendor/fpm/bin/fpm
+chmod +x vendor/fpm/bin/fpm.d
