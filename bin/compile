@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+echo "-----> Installing FPM"
+
+# change to the the BUILD_DIR ($1)
+cd $1
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ftd-lang/fpm/main/install-fpm.sh)"
