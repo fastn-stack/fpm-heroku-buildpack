@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-echo "FPM Package"
+echo "FASTN Package"
 exit 0
