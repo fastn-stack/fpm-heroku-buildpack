@@ -3,5 +3,5 @@
 cat <<EOF
 ---
 config_vars:
-  PATH: $PATH:/app/vendor/fpm/bin
+  PATH: $PATH:/app/vendor/fastn/bin
 EOF
