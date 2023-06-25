@@ -1,4 +1,9 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
-echo "FASTN Package"
-exit 0
+# this pack is valid for apps with a hello.txt in the root
+if [ -f $1/FASTN.ftd ]; then
+  echo "FASTN Package"
+  exit 0
+else
+  exit 1
+fi
