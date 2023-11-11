@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ -f $1/FASTN.ftd ]; then
+if [ -f $1/FASTN.ftd || -f $1/frontend/FASTN.ftd ]; then
   echo "FASTN Package"
   exit 0
 else
