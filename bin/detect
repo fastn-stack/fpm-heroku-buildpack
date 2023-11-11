@@ -1,8 +1,5 @@
 #!/bin/sh
 
-if [ -f $1/FASTN.ftd || -f $1/frontend/FASTN.ftd ]; then
-  echo "FASTN Package"
-  exit 0
-else
-  exit 1
-fi
+# We always return true for now
+echo "FASTN Package"
+exit 0
