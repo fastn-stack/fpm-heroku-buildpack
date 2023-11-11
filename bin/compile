@@ -11,7 +11,5 @@ curl -s $URL | grep ".*\/releases\/download\/.*\/fastn_linux.*" | head -2 | cut 
 mkdir -p vendor/fastn/bin
 
 mv fastn_linux_musl_x86_64 vendor/fastn/bin/fastn
-mv fastn_linux_musl_x86_64.d vendor/fastn/bin/fastn.d
 
 chmod +x vendor/fastn/bin/fastn
-chmod +x vendor/fastn/bin/fastn.d
